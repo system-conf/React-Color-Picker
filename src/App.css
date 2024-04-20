@@ -2,11 +2,49 @@
   text-align: center;
 }
 
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #212121;
+  width: 100%;
+  color: white;
+}
+
+.header{
+  width: 100%;
+  height: 20px;
+  background-color: #212121;
+  position: absolute;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
+.kopyalama {
+  padding: 9px 20px 9px 20px;
+  background-color: #212121;
+  color: white;
+  border-color: white;
+  border-radius: 20px;
+}
 
+.pickerim {
+  background-color: #212121;
+  color: white;
+  border-color: white;
+  border-radius: 20px;
+}
+
+.column {
+  justify-content: center;
+  display: flex;
+  width: 100%;
+  gap: 50px;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
